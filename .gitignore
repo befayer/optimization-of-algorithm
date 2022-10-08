@@ -1,0 +1,5 @@
+# Project exclude paths
+/find-element/target/
+/my-set/target/
+/out/
+/string-compression/target/
