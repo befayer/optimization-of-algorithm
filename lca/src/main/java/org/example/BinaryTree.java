@@ -2,23 +2,20 @@ package org.example;
 
 public class BinaryTree {
     Node root;
-    Node findLCA(Node node, int x, int y) {
+
+    public Node lca(Node node, int x, int y) {
         if (node == null) return null;
         if (node.data == x || node.data == y) return node;
 
-        Node leftLca = findLCA(node.left, x, y);
-        Node rightLca = findLCA(node.right, x, y);
+        Node leftLca = lca(node.left, x, y);
+        Node rightLca = lca(node.right, x, y);
 
-        if (leftLca != null && rightLca != null) {
-            return node;
-        }
-        if (leftLca != null) {
-            return leftLca;
-        }
-        return rightLca;
+        if (leftLca != null && rightLca != null) return node;
+        if (leftLca != null) return leftLca;
+        else return rightLca;
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         /*
          *                         1
@@ -48,20 +45,13 @@ public class BinaryTree {
         tree.root.right.right.left = new Node(14);
         tree.root.right.right.right = new Node(15);
 
-        for (int i = 1; i < 15; i++) {
-            for (int j = 1; j < 15; j++) {
-                System.out.println("LCA (" + i + ", " + j + ") = " + tree.findLCA(tree.root, i, j).data);
+        StringBuilder sb = new StringBuilder();
+        for (int i = 1; i <= 15; i++) {
+            for (int j = i + 1; j <= 15; j++) {
+                sb.append("LCA (").append(i).append(", ").append(j).append(") = ").append(tree.lca(tree.root, i, j).data);
+                System.out.println(sb);
+                sb.setLength(0);
             }
         }
-        /*
-        System.out.println("LCA (2,3) = " + tree.findLCA(2,3).data);
-        System.out.println("LCA (4,3) = " + tree.findLCA(4,3).data);
-        System.out.println("LCA (4,6) = " + tree.findLCA(4,6).data);
-        System.out.println("LCA (2,6) = " + tree.findLCA(2,6).data);
-        System.out.println("LCA (8,5) = " + tree.findLCA(8,5).data);
-        System.out.println("LCA (4,10) = " + tree.findLCA(4,10).data);
-        System.out.println("LCA (5,11) = " + tree.findLCA(5,11).data);
-        System.out.println("LCA (6,14) = " + tree.findLCA(6,14).data);
-         */
     }
 }
