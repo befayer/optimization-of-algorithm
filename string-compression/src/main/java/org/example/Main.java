@@ -1,11 +1,15 @@
 package org.example;
 
-import java.util.ArrayList;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.Arrays;
 
 public class Main {
+
+    protected static final Logger logger = LogManager.getLogger();
     public static void main(String[] args) {
-        String s = "аbcdft";
+        String s = "аbcdffttt";
         System.out.println(stringExpression(s));
     }
 

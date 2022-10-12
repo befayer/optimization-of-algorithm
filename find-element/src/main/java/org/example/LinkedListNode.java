@@ -1,70 +1,7 @@
 package org.example;
 
-import java.util.Random;
-
 public class LinkedListNode {
-
-    private  Node head = new Node();
-
-    public void appendToTail(int data) {
-        if (head == null){
-            head = new Node(data);
-            return;
-        }
-        while (head.next != null){
-            head = head.next;
-        }
-        head.next = new Node(data);
-    }
-
-    public void append(int data) {
-        if (head == null) {
-            head = new Node(data);
-            return;
-        }
-        tail().next = new Node(data);
-    }
-
-    private Node tail() {
-        Node tail = head;
-        // Находит последний элемент связного списка, известный как хвост
-        while (tail.next != null) {
-            tail = tail.next;
-        }
-        return tail;
-    }
-    
-    public Node getNodeByIndex(int k){
-        Node n = head.next;
-        if (n == head) return null;
-        else {
-            int temp = 1;
-            while (n.next != null) {
-                if (temp == k){
-                    return n;
-                }
-                n = n.next;
-            }
-            return null;
-        }
-    }
-
-    public static class Node {
-        int data;
-        Node next = null;
-
-        public Node(int data) {
-            this.data = data;
-        }
-
-        public Node() {
-        }
-
-        @Override
-        public String toString() {
-            return String.valueOf(data);
-        }
-    }
+    private Node head = new Node();
 
     public Node getElementFromEnd(int k) {
         if (k <= 0) return null;
@@ -96,4 +33,34 @@ public class LinkedListNode {
         return sb.toString();
     }
 
+    public void append(int data) {
+        if (head == null) {
+            head = new Node(data);
+            return;
+        }
+        tail().next = new Node(data);
+    }
+
+    private Node tail() {
+        Node tail = head;
+        // Находит последний элемент связного списка, известный как хвост
+        while (tail.next != null) {
+            tail = tail.next;
+        }
+        return tail;
+    }
+
+    public static class Node {
+        int data;
+        Node next = null;
+
+        public Node(int data) { this.data = data; }
+
+        public Node() {}
+
+        @Override
+        public String toString() {
+            return String.valueOf(data);
+        }
+    }
 }
