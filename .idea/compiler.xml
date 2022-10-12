@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lca" />
         <module name="my-set" />
         <module name="string-compression" />
         <module name="find-element" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tree-task" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
