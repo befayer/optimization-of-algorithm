@@ -13,6 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="lca1" target="18" />
       <module name="tree-task" target="18" />
     </bytecodeTargetLevel>
   </component>
