@@ -6,14 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lcaOptimize" />
+        <module name="string-compression" />
+        <module name="bits" />
         <module name="lca" />
         <module name="my-set" />
-        <module name="string-compression" />
+        <module name="lection4" />
         <module name="find-element" />
+        <module name="lection5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lca1" target="18" />
+      <module name="lcaHashTable" target="18" />
       <module name="tree-task" target="18" />
     </bytecodeTargetLevel>
   </component>

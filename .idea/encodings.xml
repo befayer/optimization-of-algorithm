@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/bits/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bits/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/find-element/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/find-element/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lca/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lca/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lca1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lca1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lcaHashTable/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lcaHashTable/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lcaOptimize/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lcaOptimize/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lection4/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lection4/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lection5/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lection5/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-set/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-set/src/main/java/org/example/AndrewSet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-set/src/main/java/org/example/GeorgeMain.java" charset="UTF-8" />

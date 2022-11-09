@@ -8,6 +8,10 @@
         <option value="$PROJECT_DIR$/string-compression/pom.xml" />
         <option value="$PROJECT_DIR$/find-element/pom.xml" />
         <option value="$PROJECT_DIR$/lca/pom.xml" />
+        <option value="$PROJECT_DIR$/bits/pom.xml" />
+        <option value="$PROJECT_DIR$/lection4/pom.xml" />
+        <option value="$PROJECT_DIR$/lection5/pom.xml" />
+        <option value="$PROJECT_DIR$/lcaOptimize/pom.xml" />
       </list>
     </option>
   </component>
