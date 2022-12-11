@@ -10,7 +10,7 @@ public class Task {
         int count = 0;
         int temp = 0;
         if (list.isEmpty()){
-            temp = translate(n).length() + 1;
+            temp = translate(n).length();
             System.out.println(temp);
             return;
         }
@@ -29,9 +29,9 @@ public class Task {
             }
             count = 0;
         }
-        System.out.println(String.valueOf(resultChars));
-        System.out.println(temp);
-        System.out.println(Integer.parseInt(String.valueOf(resultChars), 2));
+        System.out.println("Longest sequence: " + String.valueOf(resultChars));
+        System.out.println("Number of ones in the longest sequence: " + temp);
+        System.out.println("It is a value: " + Integer.parseInt(String.valueOf(resultChars), 2));
     }
 
     public static List<String> buildList(int n){

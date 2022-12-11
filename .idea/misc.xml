@@ -12,10 +12,14 @@
         <option value="$PROJECT_DIR$/lection4/pom.xml" />
         <option value="$PROJECT_DIR$/lection5/pom.xml" />
         <option value="$PROJECT_DIR$/lcaOptimize/pom.xml" />
+        <option value="$PROJECT_DIR$/eggs/pom.xml" />
+        <option value="$PROJECT_DIR$/oop/pom.xml" />
+        <option value="$PROJECT_DIR$/ChatServer/pom.xml" />
+        <option value="$PROJECT_DIR$/chat-client/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="openjdk-18" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-18" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="ProjectType">

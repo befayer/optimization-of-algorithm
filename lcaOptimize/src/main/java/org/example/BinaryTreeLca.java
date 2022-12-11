@@ -4,28 +4,24 @@ public class BinaryTreeLca {
 
     Node root;
 
-    int depth(Node node)
-    {
+    int depth(Node node) {
         int depth = 0;
         Node temp = node;
-        while (node != null)
-        {
+        while (node != null) {
             ++depth;
             node = node.parent;
         }
         assert temp != null;
-        System.out.println("The depth of " + temp.data + " is " +  depth);
+        System.out.println("The depth of " + temp.data + " is " + depth);
         return depth;
     }
 
-    Node lca(Node n1, Node n2)
-    {
+    Node lca(Node n1, Node n2) {
         int depth1 = depth(n1);
         int depth2 = depth(n2);
         int difference = depth1 - depth2;
 
-        if (difference < 0)
-        {
+        if (difference < 0) {
             Node temp = n1;
             n1 = n2;
             n2 = temp;
@@ -36,8 +32,7 @@ public class BinaryTreeLca {
         while (difference-- != 0)
             n1 = n1.parent;
 
-        while (n1 != null && n2 != null)
-        {
+        while (n1 != null && n2 != null) {
             if (n1 == n2) return n1;
             n1 = n1.parent;
             n2 = n2.parent;
@@ -45,8 +40,7 @@ public class BinaryTreeLca {
         return null;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         /*
          *                         1
@@ -63,9 +57,9 @@ public class BinaryTreeLca {
         tree.root = new Node(1);
 
         tree.root.left = new Node(2);
-        tree.root.left.parent =  tree.root;
+        tree.root.left.parent = tree.root;
         tree.root.right = new Node(3);
-        tree.root.right.parent =  tree.root;
+        tree.root.right.parent = tree.root;
 
         tree.root.left.left = new Node(4);
         tree.root.left.left.parent = tree.root.left;

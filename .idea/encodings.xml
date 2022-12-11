@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ChatServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ChatServer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bits/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bits/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eggs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eggs/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/find-element/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/find-element/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lca/src/main/java" charset="UTF-8" />
@@ -23,6 +29,8 @@
     <file url="file://$PROJECT_DIR$/my-set/src/main/java/org/example/GeorgeSet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-set/src/main/java/org/example/SetWithoutRecursion.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-set/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oop/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/string-compression/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/string-compression/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tree-task/src/main/java" charset="UTF-8" />
